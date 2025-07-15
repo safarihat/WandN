@@ -7,7 +7,7 @@ import icon from "astro-icon";
 
 export default defineConfig({
   site: "https://safarihat.github.io/WandN/",
-  base: "/WandN/",
+  //base: "/WandN/",//
   output: "static",
   // No adapter line at all!
   integrations: [mdx(), sitemap(), icon()],
